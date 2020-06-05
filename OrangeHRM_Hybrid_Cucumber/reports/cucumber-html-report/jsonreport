@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "To validate the login functionality of OrangeHRM Application",
+        "description": "",
+        "id": "validate-the-orangehrm-application;to-validate-the-login-functionality-of-orangehrm-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12405863200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Browser and Navigate to the URL",
+            "match": {
+              "location": "Login_Page_Step.open_the_Browser_and_Navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19363400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Title of the Page",
+            "match": {
+              "location": "Login_Page_Step.verify_the_Title_of_the_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644977800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"admin\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 11
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 23
+                }
+              ],
+              "location": "Login_Page_Step.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1357415000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "Login_Page_Step.click_the_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1166341000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login_Page_Step.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "To validate the login functionality of OrangeHRM Application",
+        "description": "",
+        "id": "validate-the-orangehrm-application;to-validate-the-login-functionality-of-orangehrm-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9579349700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the Browser and Navigate to the URL",
+            "match": {
+              "location": "Login_Page_Step.open_the_Browser_and_Navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12251900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the Title of the Page",
+            "match": {
+              "location": "Login_Page_Step.verify_the_Title_of_the_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 449403200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 11
+                },
+                {
+                  "val": "admin123",
+                  "offset": 23
+                }
+              ],
+              "location": "Login_Page_Step.enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4833180800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the Submit Button",
+            "match": {
+              "location": "Login_Page_Step.click_the_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 875406700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login_Page_Step.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the OrangeHRM Application",
+    "description": "",
+    "id": "validate-the-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/Hp/eclipse-workspace/OrangeHRM_Hybrid_Cucumber/src/test/resources/Feature_File/Login_Page.feature"
+  }
+]
